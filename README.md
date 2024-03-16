@@ -1,2 +1,2 @@
-# a-vim-theme
-A vim theme.
+# A Vim theme
+> work in progress
