@@ -174,6 +174,7 @@ call SetHl('Identifier', s:mods['none'], s:colors['royal'], s:colors['none'])
 call SetHl('PreProc', s:mods['bold'], s:colors['royal_l'], s:colors['none'])
 call SetHl('Statement', s:mods['bold'], s:colors['turquoise_l'], s:colors['none'])
 call SetHl('Conditional', s:mods['none'], s:colors['purple_l'], s:colors['none'])
+call SetHl('Delimiter', s:mods['none'], s:colors['purple'], s:colors['none'])
 call SetHl('Operator', s:mods['none'], s:colors['white'], s:colors['none'])
 
 "================================================ SETUP - GENERAL - IDK
@@ -238,6 +239,7 @@ call SetHl('kshSpecialVariables', s:mods['bold'], s:colors['salmon_l'], s:colors
 call SetHl('shQuote', s:mods['none'], s:colors['white'], s:colors['none'])
 call SetHl('shSingleQuote', s:mods['italic'], s:colors['white'], s:colors['none'])
 call SetHl('shDoubleQuote', s:mods['italic'], s:colors['white'], s:colors['none'])
+call SetHl('shTestSingleQuote', s:mods['italic'], s:colors['white'], s:colors['none'])
 call SetHl('shParen', s:mods['none'], s:colors['white'], s:colors['none'])
 call SetHl('shCommandSub', s:mods['none'], s:colors['white'], s:colors['none'])
 call SetHl('shSpecial', s:mods['none'], s:colors['gray_l'], s:colors['none'])
@@ -263,6 +265,23 @@ call SetHl('makeTarget', s:mods['bold'], s:colors['purple_l'], s:colors['none'])
 call SetHl('makeNextLine', s:mods['none'], s:colors['gray'], s:colors['none'])
 call SetHl('makeSpecial', s:mods['none'], s:colors['gray_l'], s:colors['none'])
 call SetHl('makeDString', s:mods['italic'], s:colors['white'], s:colors['none'])
+
+"================================================ SETUP - SNTHAX - CSS
+call SetHl('cssBraces', s:mods['none'], s:colors['purple'], s:colors['none'])
+call SetHl('cssAttrComma', s:mods['bold'], s:colors['purple_l'], s:colors['none'])
+call SetHl('cssSelectorOp', s:mods['none'], s:colors['purple'], s:colors['none'])
+call SetHl('cssSelectorOp2', s:mods['none'], s:colors['purple'], s:colors['none'])
+call SetHl('cssPseudoClassId', s:mods['bold'], s:colors['purple_l'], s:colors['none'])
+call SetHl('cssTagName', s:mods['bold'], s:colors['purple_l'], s:colors['none'])
+call SetHl('cssClassName', s:mods['bold'], s:colors['purple_l'], s:colors['none'])
+call SetHl('cssClassNameDot', s:mods['bold'], s:colors['purple_l'], s:colors['none'])
+call SetHl('cssIdentifier', s:mods['bold'], s:colors['purple_l'], s:colors['none'])
+call SetHl('cssProp', s:mods['bold'], s:colors['turquoise_l'], s:colors['none'])
+call SetHl('cssCustomProp', s:mods['bold'], s:colors['turquoise_l'], s:colors['none'])
+call SetHl('cssImportant', s:mods['none'], s:colors['salmon_l'], s:colors['none'])
+call SetHl('cssFunctionName', s:mods['none'], s:colors['yellow_l'], s:colors['none'])
+call SetHl('cssFunctionComma', s:mods['none'], s:colors['yellow_l'], s:colors['none'])
+call SetHl('cssStringQQ', s:mods['italic'], s:colors['white'], s:colors['none'])
 
 "================================================ MISC
 hi normal guibg=NONE ctermbg=NONE
