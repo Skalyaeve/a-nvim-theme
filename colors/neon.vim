@@ -64,7 +64,7 @@ function! SetHl(group, mod, fg, bg)
                 \ 'ctermbg=' . a:bg[1]
 endfunction
 
-"================================================ COULEURS
+"================================================ COLORS
 let s:colors = {
             \ 'black': [HsvToRgb(0, 0, 0, 1), 0],
             \ 'black_l': [HsvToRgb(0, 0, 7, 1), 0],
@@ -112,7 +112,7 @@ let s:colors = {
             \ 'none': ['NONE', 'NONE']
             \ }
 
-"================================================ MODIFIEURS
+"================================================ MODIFIERS
 let s:mods = {
             \ 'bold': ['bold', 'bold'],
             \ 'italic': ['italic', 'italic'],

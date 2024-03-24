@@ -1,7 +1,7 @@
 # A Vim theme
 ![](https://github.com/Skalyaeve/images/blob/main/screenshot/vim-theme.png)
 
-## Installation
+## Install
 - Via vim-plug:
 ```vim
 call plug#begin()
