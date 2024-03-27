@@ -226,6 +226,7 @@ call SetHl('shTestOpr', s:mods['none'], s:colors['turquoise_d'], s:colors['none'
 call SetHl('shEcho', s:mods['none'], s:colors['turquoise_d'], s:colors['none'])
 
 call SetHl('shDerefSimple', s:mods['bold'], s:colors['royal_l'], s:colors['none'])
+call SetHl('shArithmetic', s:mods['bold'], s:colors['royal_l'], s:colors['none'])
 call SetHl('shSetList', s:mods['none'], s:colors['royal'], s:colors['none'])
 call SetHl('shVariable', s:mods['none'], s:colors['royal'], s:colors['none'])
 call SetHl('shRepeat', s:mods['none'], s:colors['royal'], s:colors['none'])
