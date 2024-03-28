@@ -16,10 +16,10 @@ call plug#end()
 - Manually:
 ```sh
 mkdir -p ~/.vim/colors
-https://github.com/Skalyaeve/a-vim-theme.git ~/.vim/colors/neon
+git clone https://github.com/Skalyaeve/a-vim-theme.git ~/.vim/colors/neon
 ```
 
-Also make sure these lines are in your `.vimrc`:
+Also make sure you have the following in your `.vimrc`:
 ```vim
 syntax on
 if (has("termguicolors"))
@@ -28,6 +28,6 @@ endif
 colorscheme neon
 ```
 
-I also recommend theses plugins for better syntax highlighting:
+And I recommend theses plugins for better syntax highlighting:
 - LSP: [prabirshrestha/vim-lsp](https://github.com/prabirshrestha/vim-lsp)
 - Shell syntax: [lunacookies/vim-sh](https://github.com/lunacookies/vim-sh)

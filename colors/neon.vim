@@ -249,6 +249,7 @@ call SetHl('shParen', s:mods['none'], s:colors['white'], s:colors['none'])
 call SetHl('shCommandSub', s:mods['none'], s:colors['white'], s:colors['none'])
 call SetHl('shSpecial', s:mods['none'], s:colors['gray_l'], s:colors['none'])
 call SetHl('shSpecialDQ', s:mods['none'], s:colors['gray_l'], s:colors['none'])
+call SetHl('shCtrlSeq', s:mods['none'], s:colors['gray_l'], s:colors['none'])
 
 "================================================ SETUP - SNTHAX - VIM
 call SetHl('vimCommand', s:mods['bold'], s:colors['turquoise_l'], s:colors['none'])
