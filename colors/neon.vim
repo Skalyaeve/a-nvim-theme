@@ -208,7 +208,7 @@ call SetHl('DiffText', s:mods['none'], s:colors['none'], s:colors['red_d'])
 call SetHl('CopilotSuggestion', s:mods['italic'], s:colors['gray_d'], s:colors['none'])
 
 "================================================ SETUP - ADDONS - NERD TREE
-call SetHl('NERDTreeCWD', s:mods['bold'], s:colors['salmon_l'], s:colors['none'])
+call SetHl('NERDTreeCWD', s:mods['none'], s:colors['salmon_l'], s:colors['none'])
 call SetHl('NERDTreeDir', s:mods['none'], s:colors['purple'], s:colors['none'])
 call SetHl('NERDTreeDirSlash', s:mods['none'], s:colors['purple_d'], s:colors['none'])
 call SetHl('NERDTreeOpenable', s:mods['none'], s:colors['purple_d'], s:colors['none'])
