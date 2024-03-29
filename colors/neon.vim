@@ -146,7 +146,7 @@ call SetHl('TabLine', s:mods['none'], s:colors['white'], s:colors['gray'])
 call SetHl('TabLineFill', s:mods['none'], s:colors['none'], s:colors['gray_d'])
 call SetHl('TabLineSel', s:mods['bold'], s:colors['white'], s:colors['none'])
 
-call SetHl('Visual', s:mods['none'], s:colors['none'], s:colors['gray'])
+call SetHl('Visual', s:mods['none'], s:colors['none'], s:colors['gray_d'])
 call SetHl('Terminal', s:mods['none'], s:colors['white'], s:colors['none'])
 
 call SetHl('Title', s:mods['bold'], s:colors['turquoise_l'], s:colors['none'])
