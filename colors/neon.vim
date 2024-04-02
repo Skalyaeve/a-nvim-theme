@@ -224,6 +224,7 @@ call SetHl('shCmdSubRegion', s:mods['none'], s:colors['turquoise_d'], s:colors['
 call SetHl('shOption', s:mods['none'], s:colors['turquoise_d'], s:colors['none'])
 call SetHl('shTestOpr', s:mods['none'], s:colors['turquoise_d'], s:colors['none'])
 call SetHl('shEcho', s:mods['none'], s:colors['turquoise_d'], s:colors['none'])
+call SetHl('shOperator', s:mods['none'], s:colors['turquoise_d'], s:colors['none'])
 
 call SetHl('shDerefSimple', s:mods['bold'], s:colors['royal_l'], s:colors['none'])
 call SetHl('shArithmetic', s:mods['bold'], s:colors['royal_l'], s:colors['none'])
