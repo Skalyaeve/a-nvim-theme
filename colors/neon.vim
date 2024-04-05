@@ -215,7 +215,7 @@ call SetHl('NERDTreeOpenable', s:mods['none'], s:colors['purple_d'], s:colors['n
 call SetHl('NERDTreeClosable', s:mods['none'], s:colors['purple_d'], s:colors['none'])
 call SetHl('NERDTreeExecFile', s:mods['none'], s:colors['turquoise'], s:colors['none'])
 
-"================================================ SETUP - SYNTHAX - SH
+"================================================ SETUP - SYNTHAX - SH / BASH
 call SetHl('shShebang', s:mods['italic'], s:colors['turquoise_l'], s:colors['none'])
 call SetHl('shFunction', s:mods['none'], s:colors['turquoise_l'], s:colors['none'])
 call SetHl('shFunctionOne', s:mods['bold'], s:colors['turquoise_l'], s:colors['none'])
@@ -225,6 +225,7 @@ call SetHl('shOption', s:mods['none'], s:colors['turquoise_d'], s:colors['none']
 call SetHl('shTestOpr', s:mods['none'], s:colors['turquoise_d'], s:colors['none'])
 call SetHl('shEcho', s:mods['none'], s:colors['turquoise_d'], s:colors['none'])
 call SetHl('shOperator', s:mods['none'], s:colors['turquoise_d'], s:colors['none'])
+call SetHl('shNoQuote', s:mods['none'], s:colors['turquoise_d'], s:colors['none'])
 
 call SetHl('shDerefSimple', s:mods['bold'], s:colors['royal_l'], s:colors['none'])
 call SetHl('shArithmetic', s:mods['bold'], s:colors['royal_l'], s:colors['none'])
