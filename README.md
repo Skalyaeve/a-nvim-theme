@@ -1,5 +1,5 @@
 # A Vim theme
-![](https://github.com/Skalyaeve/images/blob/main/screenshot/vim-theme.png)
+![](https://github.com/Skalyaeve/images-1/blob/main/screenshot/vim-theme.png)
 
 ## Install
 - Via vim-plug:
