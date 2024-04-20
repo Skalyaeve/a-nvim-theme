@@ -4,15 +4,15 @@
 ## Install
 - Plugin Manager:
 ```
-Skalyaeve/neon
+Skalyaeve/a-nvim-theme
 ```
 
-- init.lua:
+- `init.lua`:
 ```lua
 vim.cmd('colorscheme neon')
 ```
 
-- init.vim:
+- `init.vim`:
 ```vim
 colorscheme neon
 ```
