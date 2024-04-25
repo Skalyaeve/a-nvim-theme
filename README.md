@@ -14,7 +14,7 @@ git clone https://github.com/Skalyaeve/a-nvim-theme.git
 mkdir -p ~/.config/nvim/colors
 ln -s $PWD/a-nvim-theme/colors/neon.vim ~/.config/nvim/colors/neon.vim
 ```
-
+Then
 - `init.lua`:
 ```lua
 vim.cmd('colorscheme neon')
