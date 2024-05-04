@@ -24,4 +24,3 @@ vim.cmd('colorscheme neon')
 ```vim
 colorscheme neon
 ```
-
