@@ -1,4 +1,3 @@
-# <p align="center">A theme for neovim</p>
 ![](https://github.com/Skalyaeve/images-1/blob/main/screenshot/nvim-theme.png)
 
 ## Install
