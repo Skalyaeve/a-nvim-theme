@@ -254,5 +254,9 @@ SetHl("@variable.parameter.bash", mods["none"], colors["turquoise_d"], colors["n
 SetHl("@punctuation.special.bash", mods["none"], colors["royal_l"], colors["none"])
 SetHl("@character.special.bash", mods["none"], colors["purple_l"], colors["none"])
 
+--============================= SETUP - SYNTAX - MAKEFILE
+SetHl("@tag.css", mods["none"], colors["turquoise_l"], colors["none"])
+SetHl("@function.css", mods["none"], colors["orange_l"], colors["none"])
+
 --============================= MISC
 vim.cmd("hi normal guibg=NONE ctermbg=NONE")
