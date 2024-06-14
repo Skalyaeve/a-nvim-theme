@@ -254,9 +254,29 @@ SetHl("@variable.parameter.bash", mods["none"], colors["turquoise_d"], colors["n
 SetHl("@punctuation.special.bash", mods["none"], colors["royal_l"], colors["none"])
 SetHl("@character.special.bash", mods["none"], colors["purple_l"], colors["none"])
 
---============================= SETUP - SYNTAX - MAKEFILE
-SetHl("@tag.css", mods["none"], colors["turquoise_l"], colors["none"])
+--============================= SETUP - SYNTAX - HTML
+SetHl("@constant.html", mods["none"], colors["royal_l"], colors["none"])
+SetHl("@tag.html", mods["none"], colors["salmon_l"], colors["none"])
+SetHl("@tag.delimiter.html", mods["none"], colors["salmon_d"], colors["none"])
+SetHl("@tag.attribute.html", mods["none"], colors["turquoise_l"], colors["none"])
+SetHl("@operator.html", mods["none"], colors["gray_d"], colors["none"])
+SetHl("@none.html", mods["italic"], colors["white_d"], colors["none"])
+
+--============================= SETUP - SYNTAX - CSS
+SetHl("@tag.css", mods["none"], colors["salmon_l"], colors["none"])
+SetHl("@type.css", mods["none"], colors["salmon_l"], colors["none"])
+SetHl("@constant.css", mods["none"], colors["salmon_l"], colors["none"])
+SetHl("@attribute.css", mods["none"], colors["salmon_d"], colors["none"])
+SetHl("@property.css", mods["none"], colors["turquoise_l"], colors["none"])
 SetHl("@function.css", mods["none"], colors["orange_l"], colors["none"])
+SetHl("@variable.css", mods["none"], colors["royal_l"], colors["none"])
+SetHl("@punctuation.bracket.css", mods["none"], colors["gray_l"], colors["none"])
+SetHl("@punctuation.delimiter.css", mods["none"], colors["gray_l"], colors["none"])
+SetHl("@keyword.import.css", mods["none"], colors["purple_l"], colors["none"])
+
+--============================= SETUP - SYNTAX - JAVASCRIPT
+SetHl("@punctuation.bracket.javascript", mods["none"], colors["gray_l"], colors["none"])
+SetHl("@punctuation.delimiter.javascript", mods["none"], colors["gray_l"], colors["none"])
 
 --============================= MISC
 vim.cmd("hi normal guibg=NONE ctermbg=NONE")
